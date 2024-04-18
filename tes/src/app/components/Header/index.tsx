@@ -13,24 +13,30 @@ import { IoCardOutline } from "react-icons/io5";
 export default function Header() {
   return (
     <He>
-      <p> </p>
-      <div className="cab">
-        <FaRegCommentDots style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Chama no Zap</a>
-        <CiMapPin style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Encontre uma loja</a>
-        <IoIosCall style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Atendimento</a>
-        <FaHandPaper style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Tradutor para Libras</a>
-      </div>
+      <div className="grid">
+        <p> </p>
+        <div className="cab">
+          <FaRegCommentDots style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Chama no Zap</a>
+          <CiMapPin style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Encontre uma loja</a>
+          <IoIosCall style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Atendimento</a>
+          <FaHandPaper style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Tradutor para Libras</a>
+        </div>
 
-      <div className="pre">
-        <CiGift style={{fontSize:'16px', color:'#0033c6'}}/> <a href="/">Lista de presentes</a>
-        <IoCardOutline style={{fontSize:'16px', color:'#0033c6'}}/> <a href="/">Cartão Casas Bahia</a>
+        <div className="pre">
+          <CiGift style={{fontSize:'16px', color:'#0033c6'}}/> <a href="/">Lista de presentes</a>
+          <IoCardOutline style={{fontSize:'16px', color:'#0033c6'}}/> <a href="/">Cartão Casas Bahia</a>
 
-      </div>
+        </div>
 
-      <div className="logo">
-        <a href="/">CASAS<span>BAHIA</span></a>
+        <div className="logo">
+          <a href="/">CASAS<span>BAHIA</span></a>
+        </div>
+
+        <div className="inp">
+          <input type="text" placeholder="Informe seu CEP" />
+        </div>
+        <p style={{color: 'red'}}>aaaa</p>
       </div>
-      <p style={{color: 'red'}}>aaaa</p>
     </He>
   );
 }
