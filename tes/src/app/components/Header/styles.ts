@@ -4,16 +4,16 @@ export const He = styled.div `
   width: 100vw;
   height: 96px;
   background: #F7F7F7;
-  margin: 0 85px;
+  margin: 0 200px;
 
   .grid {
     height: 96px;
     margin: 0 0 16px;
     display: grid;
     align-content: center;
-    grid-template-columns: 200px auto 585px;
+    grid-template-columns: 250px 826px auto;
     grid-template-rows: repeat(2, 1fr);
-    column-gap: 8px;
+    column-gap: 10px;
   }
 
   .cab {
@@ -62,9 +62,40 @@ export const He = styled.div `
   }
 
   .inp {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    button {
+      width: 140px;
+      height: 48px;
+      color: #0033c6;
+      font-size: 12px;
+      background: #fff;
+      border-radius: 5px;
+      border: .1px solid #dfdfdf;
+      cursor: pointer;
+    }
+  }
+
+  .sea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 620px;
+    height: 48px;
+    background: #fff;
+    border-radius: 5px;
+    border: .1px solid #dfdfdf;
+    padding: 0 0 0 24px;
+    margin-left: 40px;
+
     input {
-      width: 50px;
-      height: 20px;
+      width: 480px;
+      height: 48px;
+      color: #0033c6;
+      font-size: 14px;
+      border: none;
+      background: transparent;
     }
   }
 

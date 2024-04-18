@@ -6,6 +6,8 @@ import { IoIosCall } from "react-icons/io";
 import { FaHandPaper } from "react-icons/fa";
 import { CiGift } from "react-icons/ci";
 import { IoCardOutline } from "react-icons/io5";
+import { IoMdPin } from "react-icons/io";
+import { FaSearch } from "react-icons/fa";
 
 
 
@@ -33,8 +35,12 @@ export default function Header() {
         </div>
 
         <div className="inp">
-          <input type="text" placeholder="Informe seu CEP" />
+          <button><IoMdPin style={{fontSize:'14px'}}/> Informe seu CEP</button>
+          <div className="sea">
+            <input type="text" placeholder="O que você está procurando?" /><FaSearch style={{fontSize:'24px', marginRight: '25px'}}/>
+          </div>
         </div>
+        
         <p style={{color: 'red'}}>aaaa</p>
       </div>
     </He>
