@@ -26,6 +26,10 @@ export default function Header() {
         <IoCardOutline style={{fontSize:'16px', color:'#0033c6'}}/> <a href="/">Cartão Casas Bahia</a>
 
       </div>
+
+      <div className="logo">
+        <a href="/">CASAS<span>BAHIA</span></a>
+      </div>
       <p style={{color: 'red'}}>aaaa</p>
     </He>
   );

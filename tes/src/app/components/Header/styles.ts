@@ -40,5 +40,19 @@ export const He = styled.div `
     }
   }
 
+  .logo {
+    font-size: 30px;
+    a {
+      font-weight: 700;
+      text-decoration: none;
+      color: #0033c6;
+    }
+
+    span {
+      font-weight: 300;
+      color: red;
+    }
+  }
+
 
 `
