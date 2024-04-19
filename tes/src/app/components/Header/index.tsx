@@ -9,13 +9,14 @@ import { IoCardOutline } from "react-icons/io5";
 import { IoMdPin } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
 import { LiaUserAltSolid } from "react-icons/lia";
-
+import { CiHeart } from "react-icons/ci";
+import { IoCartOutline } from "react-icons/io5";
 
 
 export default function Header() {
   return (
     <He>
-      <div className="grid">
+      <div className="grid" style={{margin: '8px 0 12px 0'}}>
         <p> </p>
         <div className="cab">
           <FaRegCommentDots style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Chama no Zap</a>
@@ -47,6 +48,8 @@ export default function Header() {
             <span className="first">Entre ou cadastre-se</span> <br/>
             <span>para ver seus pedidos</span>
           </div>
+          <CiHeart style={{fontSize:'54px', marginLeft: '26px', color:'#0033c6'}}/>
+          <IoCartOutline style={{fontSize:'54px', marginLeft: '4px', color:'#0033c6'}}/>
         </div>
       </div>
     </He>
