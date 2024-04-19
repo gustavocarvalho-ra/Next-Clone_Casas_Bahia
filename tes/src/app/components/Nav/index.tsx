@@ -8,7 +8,7 @@ export default function Nav() {
     <NaV>
       <div className="container">
         <div className="nav">
-          <RiMenuFill /><button>Compre por departamentos</button>
+          <RiMenuFill style={{position: 'absolute'}}/><button>Compre por departamentos</button>
           <div className="a">
             <a href="/">Telefonia</a>
             <a href="/">Eletrodomésticos</a>
