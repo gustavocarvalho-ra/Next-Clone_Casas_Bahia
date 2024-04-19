@@ -52,7 +52,7 @@ export const NaV = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 115px;
+    gap: 118px;
 
     a {
       font-size: 12px;
