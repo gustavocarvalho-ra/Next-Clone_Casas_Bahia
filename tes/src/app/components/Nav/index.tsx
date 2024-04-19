@@ -6,7 +6,7 @@ import { RiMenuFill } from "react-icons/ri";
 export default function Nav() {
   return (
     <NaV>
-      <div className="container">
+      <div className="blu">
         <div className="nav">
           <RiMenuFill style={{position: 'absolute'}}/><button>Compre por departamentos</button>
           <div className="a">
@@ -22,6 +22,16 @@ export default function Nav() {
         </div>
       </div>
       <hr />
+      <div className="sas">
+        <a href="/">Cupom</a>
+        <a href="/">Ofertas da TV</a>
+        <a href="/">Retira Rápida</a>
+        <a href="/">Portal do Carnê</a>
+        <a href="/">Baixe o APP</a>
+        <a href="/">banQi</a>
+        <a href="/">Venda seus produtos</a>
+        <a href="/">Vip</a>
+      </div>
     </NaV>
   )
 }

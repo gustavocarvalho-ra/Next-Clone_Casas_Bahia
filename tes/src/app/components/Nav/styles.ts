@@ -2,14 +2,16 @@ import styled from "styled-components";
 
 export const NaV = styled.div`
   margin-top: 14px;
-  .container {
+
+  .blu {
+    width: 100vw;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 48px;
     background: #0033c6;
   }
+
   .nav {
     color: #fff;
     display: flex;
@@ -42,5 +44,21 @@ export const NaV = styled.div`
   hr {
     border: 2px solid;
     color: red;
+  }
+
+  .sas {
+    width: 100vw;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+
+    a {
+      font-size: 12px;
+      text-decoration: none;
+      color: #0033c6;
+      font-weight: 400;
+    }
   }
 `
