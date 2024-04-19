@@ -99,4 +99,20 @@ export const He = styled.div `
     }
   }
 
+  .user {
+    display: flex;
+    align-items: center;
+
+    div {
+      line-height: 16px;
+      span {
+        color: #0033c6;
+        font-size: 13px;
+      }
+      .first {
+        font-weight: 700;
+      }
+    }
+  }
+
 `

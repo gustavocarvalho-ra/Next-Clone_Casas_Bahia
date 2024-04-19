@@ -8,7 +8,7 @@ import { CiGift } from "react-icons/ci";
 import { IoCardOutline } from "react-icons/io5";
 import { IoMdPin } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
-
+import { LiaUserAltSolid } from "react-icons/lia";
 
 
 
@@ -41,7 +41,13 @@ export default function Header() {
           </div>
         </div>
         
-        <p style={{color: 'red'}}>aaaa</p>
+        <div className="user">
+          <LiaUserAltSolid style={{fontSize:'60px', marginLeft: '20px', color:'#0033c6'}}/>
+          <div className="cad">
+            <span className="first">Entre ou cadastre-se</span> <br/>
+            <span>para ver seus pedidos</span>
+          </div>
+        </div>
       </div>
     </He>
   );
