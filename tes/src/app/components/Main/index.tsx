@@ -3,7 +3,7 @@ import { MaiN } from "./styles";
 export default function Main() {
   return (
     <MaiN>
-      <div></div>
+      <div className="htt"></div>
     </MaiN>
   )
 }
