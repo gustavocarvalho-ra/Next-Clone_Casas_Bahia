@@ -37,4 +37,27 @@ export const MaiN = styled.div`
       color: #0033c6;
     }
   }
+
+  .min {
+    width: 68vw;
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    background: red;
+
+    .colu {
+      width: 16%;
+      background: yellow;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .col {
+        h2 {
+          font-size: 13px;
+          color: #0033c6;
+        }
+      }
+    }
+  }
 `

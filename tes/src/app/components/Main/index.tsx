@@ -11,6 +11,19 @@ export default function Main() {
       <div className="titl">
         <h1>Eletroportáteis</h1>
       </div>
+
+      <div className="min">
+        <div className="colu">
+          <div className="col">
+            <h2>Filtros selecionados</h2>
+            <p>Produto vendido por:
+              Vendido e entrege por
+              Casas Bahia
+            </p>
+            <button>Limpar filtros</button>
+          </div>
+        </div>
+      </div>
     </MaiN>
   )
 }
