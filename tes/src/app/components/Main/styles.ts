@@ -60,13 +60,28 @@ export const MaiN = styled.div`
         h2 {
           font-size: 13px;
           color: #0033c6;
-          margin-bottom: 22px;
+          margin-bottom: 24px;
         }
         p {
           color: #575757;
           font-size: 13px;
           line-height: 15px;
-          margin-bottom: 22px;
+          margin-bottom: 24px;
+        }
+        button {
+          background: #0033c6;
+          font-size: 16px;
+          color: #fff;
+          border: none;
+          width: 12em;
+          height: 44px;
+          border-radius: 6px;
+          cursor: pointer;
+          transition: .7s;
+
+          &:hover {
+            background: #002286;
+          }
         }
       }
     }

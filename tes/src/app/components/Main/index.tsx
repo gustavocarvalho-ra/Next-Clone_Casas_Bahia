@@ -1,5 +1,7 @@
 import { MaiN } from "./styles";
 
+import { IoMdClose } from "react-icons/io";
+
 export default function Main() {
   return (
     <MaiN>
@@ -18,7 +20,7 @@ export default function Main() {
             <h2>Filtros selecionados</h2>
             <p>
               <strong>Produto vendido por:</strong> <br />
-              Vendido e entrege por <br />
+              Vendido e entrege por  <IoMdClose style={{marginLeft: '35px', fontSize:'15px'}}/><br />
               Casas Bahia
             </p>
             <button>Limpar filtros</button>
