@@ -44,18 +44,29 @@ export const MaiN = styled.div`
     display: flex;
     flex-wrap: wrap;
     background: red;
+    margin-top: 35px;
+
 
     .colu {
       width: 16%;
       background: yellow;
-      display: flex;
-      align-items: center;
-      justify-content: center;
 
       .col {
+        margin-left: 13px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
         h2 {
           font-size: 13px;
           color: #0033c6;
+          margin-bottom: 22px;
+        }
+        p {
+          color: #575757;
+          font-size: 13px;
+          line-height: 15px;
+          margin-bottom: 22px;
         }
       }
     }

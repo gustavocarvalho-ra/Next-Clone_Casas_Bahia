@@ -16,8 +16,9 @@ export default function Main() {
         <div className="colu">
           <div className="col">
             <h2>Filtros selecionados</h2>
-            <p>Produto vendido por:
-              Vendido e entrege por
+            <p>
+              <strong>Produto vendido por:</strong> <br />
+              Vendido e entrege por <br />
               Casas Bahia
             </p>
             <button>Limpar filtros</button>
