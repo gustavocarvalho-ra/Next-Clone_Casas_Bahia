@@ -5,6 +5,7 @@ export const MaiN = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin-top: 55px;
 
   .htt {
     width: 66vw;
@@ -13,6 +14,7 @@ export const MaiN = styled.div`
     align-items: center;
     margin: 15px 20px 0 0;
     gap: 8px;
+    margin-bottom: 10px;
 
     span {
       font-size: 12px;
@@ -43,13 +45,13 @@ export const MaiN = styled.div`
     height: 110vh;
     display: flex;
     flex-wrap: wrap;
-    background: red;
+    /* background: red; */
     margin-top: 35px;
 
 
     .colu {
       width: 16%;
-      background: yellow;
+      /* background: yellow; */
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
@@ -94,6 +96,20 @@ export const MaiN = styled.div`
         height: 80vh;
         border: 1px solid #575757;
         border-radius: 5px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 15px;
+
+        button {
+          height: 44px;
+          color: #575757;
+          font-size: 16px;
+          font-weight: 700;
+          margin-top: 10px;
+          border: transparent;
+          cursor: pointer;
+        }
       }
     }
   }

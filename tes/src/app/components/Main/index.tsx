@@ -1,4 +1,5 @@
 import { MaiN } from "./styles";
+import Image from "next/image";
 
 import { IoMdClose } from "react-icons/io";
 
@@ -26,7 +27,9 @@ export default function Main() {
             <button>Limpar filtros</button>
           </div>
 
-          <div className="flt"></div>
+          <div className="flt">
+            <button className="fl">Eletroportáteis <Image style={{marginLeft: '33px'}} src="/traco.svg" width={10} height={10} alt="Traço para fechar os filtros"/></button>
+          </div>
         </div>
       </div>
     </MaiN>
