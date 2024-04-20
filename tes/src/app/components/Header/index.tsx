@@ -3,7 +3,7 @@ import { He } from "./styles"
 import { FaRegCommentDots } from "react-icons/fa6";
 import { CiMapPin } from "react-icons/ci";
 import { IoIosCall } from "react-icons/io";
-import { FaHandPaper } from "react-icons/fa";
+import { IoHandRightOutline } from "react-icons/io5";
 import { CiGift } from "react-icons/ci";
 import { IoCardOutline } from "react-icons/io5";
 import { IoMdPin } from "react-icons/io";
@@ -22,7 +22,7 @@ export default function Header() {
           <FaRegCommentDots style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Chama no Zap</a>
           <CiMapPin style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Encontre uma loja</a>
           <IoIosCall style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Atendimento</a>
-          <FaHandPaper style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Tradutor para Libras</a>
+          <IoHandRightOutline style={{fontSize:'15px', color:'#0033c6'}}/> <a href="/"> Tradutor para Libras</a>
         </div>
 
         <div className="pre">
