@@ -50,13 +50,15 @@ export const MaiN = styled.div`
     .colu {
       width: 16%;
       background: yellow;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
 
       .col {
-        margin-left: 13px;
         display: flex;
+        margin-left: 13px;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: center;
         h2 {
           font-size: 13px;
           color: #0033c6;
@@ -83,6 +85,15 @@ export const MaiN = styled.div`
             background: #002286;
           }
         }
+      }
+
+      .flt {
+        margin-top: 25px;
+        margin-left: 13px;
+        width: 10vw;
+        height: 80vh;
+        border: 1px solid #575757;
+        border-radius: 5px;
       }
     }
   }
