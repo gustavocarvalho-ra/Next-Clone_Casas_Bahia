@@ -169,8 +169,21 @@ export const MaiN = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .span {
-          margin-left: 500px;
+        font-size: 14px;
+        color: #575757;
+        
+        label {
+          display: flex;
+          align-items: center;
+          div {
+            padding: 12px;
+            width: 150px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+            border: 1px solid #575757;
+          }
         }
       }
     }

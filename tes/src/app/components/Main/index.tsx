@@ -58,8 +58,10 @@ export default function Main() {
         <div className="sec">
           <div className="sort">
             <p><strong>294</strong> produtos encontrados</p>
-            <span>Ordenar por</span>
-            <div>Mais vendidos <FaLongArrowAltDown /></div>
+            <label htmlFor="">
+              <span>Ordenar por</span>
+              <div>Mais vendidos <FaLongArrowAltDown /></div>
+            </label>
           </div>
         </div>
       </div>
