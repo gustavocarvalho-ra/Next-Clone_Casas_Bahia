@@ -100,7 +100,7 @@ export const MaiN = styled.div`
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        padding-left: 15px;
+        padding-left: 7px;
 
         button {
           height: 44px;
@@ -133,6 +133,16 @@ export const MaiN = styled.div`
           a {
             width: 160px;
             height: 44px;
+            color: #575757;
+            font-size: 12px;
+            text-decoration: none;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+          .clas {
+            font-weight: 900;
           }
         }
       }
