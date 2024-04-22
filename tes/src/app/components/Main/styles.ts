@@ -97,6 +97,7 @@ export const MaiN = styled.div`
         border: 1px solid #575757;
         border-radius: 5px;
         display: flex;
+        flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
         padding-left: 15px;
@@ -109,6 +110,30 @@ export const MaiN = styled.div`
           margin-top: 10px;
           border: transparent;
           cursor: pointer;
+        }
+
+        .fri {
+          width: 160px;
+          height: 44px;
+          display: flex;
+          align-items: center;
+          a {
+            color: #575757;
+            font-size: 12px;
+            text-decoration: none;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+        .exe {
+          display: flex;
+          flex-direction: column;
+          a {
+            width: 160px;
+            height: 44px;
+          }
         }
       }
     }
