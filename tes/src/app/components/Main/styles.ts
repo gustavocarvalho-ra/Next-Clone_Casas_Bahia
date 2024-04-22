@@ -165,24 +165,29 @@ export const MaiN = styled.div`
       padding: 0 0 0 24px;
       .sort {
         width: 100%;
-        height: 40px;
+        min-height: 40px;
+        height: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
         font-size: 14px;
         color: #575757;
-        
+        strong {
+          margin-right: 8px;
+        }
         label {
           display: flex;
           align-items: center;
           div {
-            padding: 12px;
-            width: 150px;
-            height: 40px;
+            width: 140px;
+            min-height: 45px;
             display: flex;
             align-items: center;
+            padding: 12px;
             margin-left: 20px;
+            border-radius: 4px;
             border: 1px solid #575757;
+            cursor: pointer;
           }
         }
       }

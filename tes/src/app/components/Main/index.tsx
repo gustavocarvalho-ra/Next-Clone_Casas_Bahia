@@ -57,10 +57,10 @@ export default function Main() {
         </div>
         <div className="sec">
           <div className="sort">
-            <p><strong>294</strong> produtos encontrados</p>
+            <p><strong>295</strong> produtos encontrados</p>
             <label htmlFor="">
               <span>Ordenar por</span>
-              <div>Mais vendidos <FaLongArrowAltDown /></div>
+              <div>Mais vendidos <FaLongArrowAltDown style={{marginLeft: '8px'}}/></div>
             </label>
           </div>
         </div>
