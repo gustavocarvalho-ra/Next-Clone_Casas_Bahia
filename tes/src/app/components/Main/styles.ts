@@ -113,7 +113,7 @@ export const MaiN = styled.div`
         }
 
         .fri {
-          width: 160px;
+          width: 180px;
           height: 44px;
           display: flex;
           align-items: center;
@@ -128,6 +128,8 @@ export const MaiN = styled.div`
           }
         }
         .exe {
+          width: 180px;
+          height: 660px;
           display: flex;
           flex-direction: column;
           a {
@@ -136,12 +138,16 @@ export const MaiN = styled.div`
             color: #575757;
             font-size: 12px;
             text-decoration: none;
+            display: flex;
+            align-items: center;
+
 
             &:hover {
               text-decoration: underline;
             }
           }
           .clas {
+            width: 180px;
             font-weight: 900;
           }
         }
