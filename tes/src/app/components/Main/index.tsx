@@ -2,6 +2,7 @@ import { MaiN } from "./styles";
 import Image from "next/image";
 
 import { IoMdClose } from "react-icons/io";
+import { FaLongArrowAltDown } from "react-icons/fa";
 
 export default function Main() {
   return (
@@ -55,7 +56,11 @@ export default function Main() {
           </div>
         </div>
         <div className="sec">
-          
+          <div className="sort">
+            <p><strong>294</strong> produtos encontrados</p>
+            <span>Ordenar por</span>
+            <div>Mais vendidos <FaLongArrowAltDown /></div>
+          </div>
         </div>
       </div>
     </MaiN>

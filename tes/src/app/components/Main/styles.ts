@@ -160,5 +160,19 @@ export const MaiN = styled.div`
         }
       }
     }
+    .sec {
+      width: 84%;
+      padding: 0 0 0 24px;
+      .sort {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .span {
+          margin-left: 500px;
+        }
+      }
+    }
   }
 `
