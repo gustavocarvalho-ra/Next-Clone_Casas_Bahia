@@ -143,7 +143,6 @@ export const MaiN = styled.div`
             display: flex;
             align-items: center;
 
-
             &:hover {
               text-decoration: underline;
             }
@@ -151,6 +150,12 @@ export const MaiN = styled.div`
           .clas {
             width: 180px;
             font-weight: 900;
+          }
+          
+          span {
+            font-weight: 700;
+            margin-left: 5px;
+            color: #0033c6;
           }
         }
       }

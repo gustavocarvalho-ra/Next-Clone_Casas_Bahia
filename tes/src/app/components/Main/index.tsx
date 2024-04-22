@@ -33,26 +33,29 @@ export default function Main() {
             <hr />
             <div className="exe">
               <a href="/" className="clas">Liquidificadores e Acessórios</a>
-              <a href="/">Liquidificadores</a>
+              <a href="/">Liquidificadores <span>(29)</span></a>
               <hr />
               <a href="/" className="clas">Aspiradores e Acessórios</a>
-              <a href="/">Aspirador de pó</a>
-              <a href="/">Aspirador Água e Pó</a>
+              <a href="/">Aspirador de pó <span>(16)</span></a>
+              <a href="/">Aspirador Água e Pó <span>(11)</span></a>
               <hr />
               <a href="/" className="clas">Batedeiras</a>
-              <a href="/">Batedeira</a>
-              <a href="/">Planetária</a>
+              <a href="/">Batedeira <span>(6)</span></a>
+              <a href="/">Planetária <span>(6)</span></a>
               <hr />
               <a href="/" className="clas">Cafeteiras</a>
-              <a href="/">Cafeteiras Expresso</a>
-              <a href="/">Cafeteiras Elétricas</a>
-              <a href="/">Cafeteiras Dolce Gusto</a>
-              <a href="/">Nespresso</a>
-              <a href="/">Cafeteiras TRES</a>
+              <a href="/">Cafeteiras Expresso <span>(2)</span></a>
+              <a href="/">Cafeteiras Elétricas <span>(16)</span></a>
+              <a href="/">Cafeteiras Dolce Gusto <span>(5)</span></a>
+              <a href="/">Nespresso <span>(7)</span></a>
+              <a href="/">Cafeteiras TRES <span>(6)</span></a>
               <hr />
               <a href="/" className="clas">Ferro de Passar</a>
             </div>
           </div>
+        </div>
+        <div className="sec">
+          
         </div>
       </div>
     </MaiN>
