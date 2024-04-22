@@ -111,7 +111,9 @@ export const MaiN = styled.div`
           border: transparent;
           cursor: pointer;
         }
-
+        hr {
+          width: 95%;
+        }
         .fri {
           width: 180px;
           height: 44px;

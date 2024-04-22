@@ -34,18 +34,22 @@ export default function Main() {
             <div className="exe">
               <a href="/" className="clas">Liquidificadores e Acessórios</a>
               <a href="/">Liquidificadores</a>
+              <hr />
               <a href="/" className="clas">Aspiradores e Acessórios</a>
               <a href="/">Aspirador de pó</a>
               <a href="/">Aspirador Água e Pó</a>
+              <hr />
               <a href="/" className="clas">Batedeiras</a>
               <a href="/">Batedeira</a>
               <a href="/">Planetária</a>
+              <hr />
               <a href="/" className="clas">Cafeteiras</a>
               <a href="/">Cafeteiras Expresso</a>
               <a href="/">Cafeteiras Elétricas</a>
               <a href="/">Cafeteiras Dolce Gusto</a>
               <a href="/">Nespresso</a>
               <a href="/">Cafeteiras TRES</a>
+              <hr />
               <a href="/" className="clas">Ferro de Passar</a>
             </div>
           </div>
