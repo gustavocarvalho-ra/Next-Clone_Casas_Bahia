@@ -5,6 +5,17 @@ import { IoMdClose } from "react-icons/io";
 import { FaLongArrowAltDown } from "react-icons/fa";
 
 export default function Main() {
+
+  function card () {
+    fetch('produtos.json')
+      .then(response => response.json())
+      .then(produtos => {
+        const constainer = document.querySelector('#card')
+
+        produtos.map()
+      })
+  };
+
   return (
     <MaiN>
       <div className="htt">
