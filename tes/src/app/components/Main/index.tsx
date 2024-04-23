@@ -63,6 +63,13 @@ export default function Main() {
               <div>Mais vendidos <FaLongArrowAltDown style={{marginLeft: '8px'}}/></div>
             </label>
           </div>
+          <div id="const">
+            <div className="card">
+              <img src="" alt="aa" />
+              <h3>aspirador</h3>
+              <h2>R$164,90</h2>
+            </div>
+          </div>
         </div>
       </div>
     </MaiN>
