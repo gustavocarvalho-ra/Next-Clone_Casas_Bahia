@@ -1,5 +1,5 @@
 {
-  "data": [
+  "produtos": [
     {
       "nome" : "Aspirador de Pó",
       "imagem" : "./img/0.png",

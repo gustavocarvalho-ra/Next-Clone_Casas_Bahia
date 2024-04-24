@@ -6,15 +6,15 @@ import { FaLongArrowAltDown } from "react-icons/fa";
 
 export default function Main() {
 
-  function card () {
-    fetch('produtos.json')
-      .then(response => response.json())
-      .then(produtos => {
-        const constainer = document.querySelector('#card')
+  const divProd = document.querySelector("#const")
 
-        produtos.map()
+  fetch("produtos.json").then((response) => {
+      response.json().then((dados) => {
+        dados.produtos.map((produto) => {
+          divProd?.innerHTML += `<h3> ${produto.nome} <h3>`
+        })
       })
-  };
+    })
 
   return (
     <MaiN>
