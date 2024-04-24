@@ -10,8 +10,9 @@ export default function Main() {
 
   fetch("produtos.json").then((response) => {
       response.json().then((dados) => {
-        dados.produtos.map((produto) => {
-          divProd?.innerHTML += `<h3> ${produto.nome} <h3>`
+        dados.produtos.map((produto: { nome: string; preco: number; }) => {
+          divProd?.innerHTML += `<h3> ${produto.nome} <h3>
+          <h2>${produto.preco}<h2>`
         })
       })
     })
