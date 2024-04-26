@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const He = styled.div `
-  width: 89vw;
+  width: 89%;
   height: 96px;
   background: #F7F7F7;
   margin: 0 200px;

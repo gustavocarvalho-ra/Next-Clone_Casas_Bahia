@@ -4,7 +4,7 @@ export const NaV = styled.div`
   margin-top: 14px;
 
   .blu {
-    width: 100vw;
+    width: 100%;
     height: 48px;
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@ export const NaV = styled.div`
   }
 
   .sas {
-    width: 100vw;
+    width: 100%;
     height: 48px;
     display: flex;
     justify-content: center;
