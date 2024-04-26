@@ -1,12 +1,12 @@
 [
   {
     "nome" : "Aspirador de Pó",
-    "imagem" : "./img/0.png",
+    "photo" : "/assets/0.png",
     "preco" : "R$164,90"
   },
   {
     "nome" : "Fritadeira Air Fryer Bellas Cuccina",
-    "imagem" : "./img/0.png",
+    "imagem" : "data:image./img/0.png:base64",
     "preco" : "R$269,00"
   },
   {
@@ -38,6 +38,21 @@
     "nome" : "Fritadeira Eletrica Sem Óleo Air Fryer",
     "imagem" : "img/aspirador.jpeg",
     "preco" : "R$299,00"
+  },
+  {
+    "nome" : "Liquidificador Britânia Diamante 800 Preto",
+    "imagem" : "img/aspirador.jpeg",
+    "preco" : "R$97,90"
+  },
+  {
+    "nome" : "Liquidificador Britânia Diamante 800 Preto",
+    "imagem" : "img/aspirador.jpeg",
+    "preco" : "R$97,90"
+  },
+  {
+    "nome" : "Liquidificador Britânia Diamante 800 Preto",
+    "imagem" : "img/aspirador.jpeg",
+    "preco" : "R$97,90"
   },
   {
     "nome" : "Liquidificador Britânia Diamante 800 Preto",

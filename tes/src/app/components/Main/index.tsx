@@ -1,6 +1,6 @@
 import { MaiN } from "./styles";
 import Image from "next/image";
-import produtos from './data/produtos.json'
+import produtos from "./data/produtos.json"
 
 import { IoMdClose } from "react-icons/io";
 import { FaLongArrowAltDown } from "react-icons/fa";
@@ -8,8 +8,9 @@ import { FaLongArrowAltDown } from "react-icons/fa";
 export default function Main() {
 let produtosMa = [...produtos];
 
-  return (
-    <MaiN>
+return (
+  <MaiN>
+    
       <div className="htt">
         <span className="prim"><a href="/">casasbahia.com.br</a></span>
         <span>{'>'}</span>
@@ -67,11 +68,11 @@ let produtosMa = [...produtos];
             </label>
           </div>
           <div id="const">
-            {produtos.map(item => (
+            {produtosMa.map(item => (
             <div className="card">
-              <img src={item.imagem} alt="aa" width={400} height={500}/>
-              <h3>`${item.nome}`</h3>
-              <h2>`${item.preco}`</h2>
+              <img src="{item.imagem}" alt="aa" width={180} height={180}/>
+              <h3>{item.nome}</h3>
+              <h2>{item.preco}</h2>
             </div>
             ))}
           </div>

@@ -195,14 +195,25 @@ export const MaiN = styled.div`
       #const {
         width: 100%;
         height: 100%;
-        background: red;
         display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        gap: 24px;
+        background-color: red;
 
         .card {
+          width: 250px;
+          height: 400px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+          padding: 24px;
+          border-radius: 12px;
+          border: 1px solid #575757;
           img {
-            width: 200px;
-            height: 300px;
-            background: blue;
+            width: 180px;
+            height: 180px;
           }
         }
       }
