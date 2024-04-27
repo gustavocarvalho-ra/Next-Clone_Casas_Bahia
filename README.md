@@ -1,5 +1,8 @@
 # Projeto de um clone do site das Casas Bahia.
 
+## Link para a página clonada:
+https://www.casasbahia.com.br/c/eletroportateis?filtro=c73_l10037&nid=201452&utm_source=gp_pla&utm_medium=cpc&utm_campaign=gg_pmax_core_elpo_apostas&gad_source=1&gclid=CjwKCAjwoPOwBhAeEiwAJuXRh_dqgxnNnpEhbroNhwFb1AZLIwSUSJdGVAJmiK4eyeBm_r1X6PChbxoC7HwQAvD_BwE&gclsrc=aw.ds
+
 ## Stack utilizada 
 - Next js
 - Typescript <img src="https://cdn3.emoji.gg/emojis/8584-typescript.png" width="18px" height="18px" alt="TypeScript">
