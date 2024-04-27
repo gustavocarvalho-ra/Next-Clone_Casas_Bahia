@@ -217,8 +217,15 @@ export const MaiN = styled.div`
             height: 180px;
             margin-bottom: 12px;
           }
-
-          
+          h3 {
+            font-size: 14px;
+            margin-bottom: 12px;
+          }
+          h2 {
+            font-size: 20px;
+            font-weight: 800;
+            color: #0033c6;
+          }
         }
       }
     }
