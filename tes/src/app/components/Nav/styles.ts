@@ -13,14 +13,23 @@ export const NaV = styled.div`
   }
 
   .nav {
+    width: 1400px;
     color: #fff;
     display: flex;
     align-items: center;
 
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 44px;
+    }
+
     button {
-      width: 200px;
+      width: 250px;
       height: 48px;
-      margin: 0 45px 0 16px;
+      margin: 0 30px 0 16px;
       border: none;
       background-color: transparent;
       color: #fff;
@@ -30,6 +39,7 @@ export const NaV = styled.div`
     }
 
     .a {
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -38,6 +48,12 @@ export const NaV = styled.div`
         font-size: 15px;
         color: #fff;
         text-decoration: none;
+        border-radius: 8px;
+        transition: .5s;
+
+        &:hover {
+          background: #DB352D;
+        }
       }
     }
   }
