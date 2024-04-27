@@ -204,18 +204,21 @@ export const MaiN = styled.div`
 
         .card {
           width: 250px;
-          height: 400px;
+          height: 360px;
           display: flex;
-          align-items: center;
           flex-direction: column;
           justify-content: center;
+          align-items: flex-start;
           padding: 24px;
           border-radius: 12px;
           border: 1px solid #575757;
           img {
             width: 180px;
             height: 180px;
+            margin-bottom: 12px;
           }
+
+          
         }
       }
     }
