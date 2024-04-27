@@ -1,62 +1,62 @@
 [
   {
     "nome" : "Aspirador de Pó",
-    "photo" : "/assets/0.png",
+    "photo" : "./img/1.png",
     "preco" : "R$164,90"
   },
   {
     "nome" : "Fritadeira Air Fryer Bellas Cuccina",
-    "imagem" : "data:image./img/0.png:base64",
+    "imagem" : "data:image./assets/0.png:base64",
     "preco" : "R$269,00"
   },
   {
     "nome" : "Liquidificador Philco PH900 Preto",
-    "imagem" : "img/aspirador.jpeg",
+    "imagem" : "/assets/1.png",
     "preco" : "R$129,00"
   },
   {
     "nome" : "Liquidificador Oster OLIQ610",
-    "imagem" : "img/aspirador.jpeg",
+    "imagem" : "./assets/1.png",
     "preco" : "R$175,96"
   },
   {
     "nome" : "Aspirador de Pó",
-    "imagem" : "img/aspirador.jpeg",
+    "imagem" : "./assets/1.png",
     "preco" : "R$169,99"
   },
   {
     "nome" : "Liquidificador Mondial Power-L-550",
-    "imagem" : "img/aspirador.jpeg",
+    "imagem" : "./assets/1.png",
     "preco" : "R$75,56"
   },
   {
     "nome" : "Liquidificador Mondial Turbo Power L-99",
-    "imagem" : "img/aspirador.jpeg",
+    "imagem" : "./assets/1.png",
     "preco" : "R$92,90"
   },
   {
     "nome" : "Fritadeira Eletrica Sem Óleo Air Fryer",
-    "imagem" : "img/aspirador.jpeg",
+    "imagem" : "./assets/1.png",
     "preco" : "R$299,00"
   },
   {
     "nome" : "Liquidificador Britânia Diamante 800 Preto",
-    "imagem" : "img/aspirador.jpeg",
+    "imagem" : "./assets/1.png",
     "preco" : "R$97,90"
   },
   {
     "nome" : "Liquidificador Britânia Diamante 800 Preto",
-    "imagem" : "img/aspirador.jpeg",
+    "imagem" : "./assets/1.png",
     "preco" : "R$97,90"
   },
   {
     "nome" : "Liquidificador Britânia Diamante 800 Preto",
-    "imagem" : "img/aspirador.jpeg",
+    "imagem" : "./assets/1.png",
     "preco" : "R$97,90"
   },
   {
     "nome" : "Liquidificador Britânia Diamante 800 Preto",
-    "imagem" : "img/aspirador.jpeg",
+    "imagem" : "./assets/1.png",
     "preco" : "R$97,90"
   }
 ]

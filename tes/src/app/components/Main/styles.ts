@@ -162,6 +162,7 @@ export const MaiN = styled.div`
     }
     .sec {
       width: 84%;
+      height: 100vh;
       padding: 0 0 0 24px;
       .sort {
         width: 100%;
@@ -199,7 +200,7 @@ export const MaiN = styled.div`
         flex-wrap: wrap;
         margin-top: 10px;
         gap: 24px;
-        background-color: red;
+        /* background-color: red; */
 
         .card {
           width: 250px;

@@ -70,7 +70,7 @@ return (
           <div id="const">
             {produtosMa.map(item => (
             <div className="card">
-              <img src="{item.imagem}" alt="aa" width={180} height={180}/>
+              <img src={item.imagem} alt="aa" width={180} height={180}/>
               <h3>{item.nome}</h3>
               <h2>{item.preco}</h2>
             </div>
