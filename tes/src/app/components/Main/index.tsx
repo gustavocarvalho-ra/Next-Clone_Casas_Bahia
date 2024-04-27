@@ -56,6 +56,18 @@ return (
               <a href="/">Cafeteiras TRES <span>(6)</span></a>
               <hr />
               <a href="/" className="clas">Ferro de Passar</a>
+              <a href="/">Ferro a Seco<span>(3)</span></a>
+              <a href="/">Ferro a Vapor<span>(6)</span></a>
+              <hr />
+              <a href="/" className="clas">Máquina de Costura</a>
+              <a href="/">Costura<span>(6)</span></a>
+              <hr />
+              <a href="/" className="clas">Cozinha Criativa</a>
+              <a href="/">Panificadora<span>(1)</span></a>
+              <a href="/">Máquinas de Cupcake<span>(1)</span></a>
+              <a href="/">Pipoqueras<span>(2)</span></a>
+              <hr />
+              <a href="/" className="clas">Churrasqueiras Elétricas</a>
             </div>
           </div>
         </div>

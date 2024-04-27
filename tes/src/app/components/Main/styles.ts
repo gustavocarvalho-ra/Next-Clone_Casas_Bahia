@@ -4,8 +4,10 @@ export const MaiN = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-  margin-top: 55px;
+  justify-content: flex-start;
+  /* margin-top: 55px; */
+  height: 1500px;
+  background: #FCFCFC;
 
   .htt {
     width: 66vw;
@@ -93,7 +95,7 @@ export const MaiN = styled.div`
         margin-top: 25px;
         margin-left: 13px;
         width: 10vw;
-        height: 80vh;
+        height: 1073px;
         border: 1px solid #575757;
         border-radius: 5px;
         display: flex;
@@ -142,6 +144,7 @@ export const MaiN = styled.div`
             text-decoration: none;
             display: flex;
             align-items: center;
+            margin: 12px 0 12px 0;
 
             &:hover {
               text-decoration: underline;
@@ -173,6 +176,7 @@ export const MaiN = styled.div`
         align-items: center;
         font-size: 14px;
         color: #575757;
+        margin-bottom: 24px;
         strong {
           margin-right: 8px;
         }
@@ -204,7 +208,7 @@ export const MaiN = styled.div`
 
         .card {
           width: 250px;
-          height: 360px;
+          height: 380px;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -215,7 +219,7 @@ export const MaiN = styled.div`
           img {
             width: 180px;
             height: 180px;
-            margin-bottom: 12px;
+            margin-bottom: 20px;
           }
           h3 {
             font-size: 14px;
