@@ -216,10 +216,11 @@ export const MaiN = styled.div`
           border-radius: 12px;
           border: 1px solid #C0C0C0;
           transition: all .6s;
+          background: #FCFCFC;
 
           &:hover {
             border: 1px solid #0033c6;
-            box-shadow: 5px 6px 5px 0px #838383;;
+            box-shadow: 5px 6px 10px 0px #838383;;
             
           }
           img {
