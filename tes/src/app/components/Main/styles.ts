@@ -204,7 +204,6 @@ export const MaiN = styled.div`
         flex-wrap: wrap;
         margin-top: 10px;
         gap: 24px;
-        /* background-color: red; */
 
         .card {
           width: 250px;
@@ -215,7 +214,14 @@ export const MaiN = styled.div`
           align-items: flex-start;
           padding: 24px;
           border-radius: 12px;
-          border: 1px solid #575757;
+          border: 1px solid #C0C0C0;
+          transition: all .6s;
+
+          &:hover {
+            border: 1px solid #0033c6;
+            box-shadow: 5px 6px 5px 0px #838383;;
+            
+          }
           img {
             width: 180px;
             height: 180px;
