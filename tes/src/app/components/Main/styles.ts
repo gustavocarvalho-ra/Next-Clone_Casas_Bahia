@@ -144,7 +144,7 @@ export const MaiN = styled.div`
             text-decoration: none;
             display: flex;
             align-items: center;
-            margin: 12px 0 12px 0;
+            margin: 11px 0 12px 0;
 
             &:hover {
               text-decoration: underline;
