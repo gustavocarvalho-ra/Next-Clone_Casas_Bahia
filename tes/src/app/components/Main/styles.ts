@@ -240,12 +240,14 @@ export const MaiN = styled.div`
             font-size: 12px;
             line-height: 150%;
             letter-spacing: 0.02em;
+            margin-bottom: 20px;
 
             strong {
               font-weight: 800;
             }
           }
           h2 {
+            margin-top: 16px;
             font-size: 20px;
             font-weight: 800;
             color: #0033c6;

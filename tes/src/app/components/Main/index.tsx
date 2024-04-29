@@ -86,7 +86,7 @@ return (
               <h3>{item.nome}</h3>
               <div className="parcela">
                 <span>
-                  {item.parc?.cj} <strong>de</strong>
+                  {item.parc?.cj}
                   <br/>
                   {item.parc?.sj} <strong>sem juros</strong>
                 </span>
