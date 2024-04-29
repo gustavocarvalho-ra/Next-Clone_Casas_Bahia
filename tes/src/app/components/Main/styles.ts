@@ -207,7 +207,7 @@ export const MaiN = styled.div`
 
         .card {
           width: 250px;
-          height: 380px;
+          height: 400px;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -230,6 +230,9 @@ export const MaiN = styled.div`
           }
           h3 {
             font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            line-height: 150%;
             margin-bottom: 12px;
           }
           h2 {

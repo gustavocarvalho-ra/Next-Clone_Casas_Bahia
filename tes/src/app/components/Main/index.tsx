@@ -84,6 +84,12 @@ return (
             <div className="card">
               <img src={item.imagem} alt="aa" width={180} height={180}/>
               <h3>{item.nome}</h3>
+              <div className="parcela">
+                <span>
+                  {item.parc?.sj}
+                  {item.parc?.cj}
+                </span>
+              </div>
               <h2>{item.preco}</h2>
             </div>
             ))}
