@@ -86,8 +86,9 @@ return (
               <h3>{item.nome}</h3>
               <div className="parcela">
                 <span>
-                  {item.parc?.sj}
                   {item.parc?.cj}
+                  <br/>
+                  {item.parc?.sj} 
                 </span>
               </div>
               <h2>{item.preco}</h2>
