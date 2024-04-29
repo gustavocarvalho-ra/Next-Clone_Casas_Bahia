@@ -95,8 +95,8 @@ export const MaiN = styled.div`
         margin-top: 25px;
         margin-left: 13px;
         width: 10vw;
-        height: 1073px;
-        border: 1px solid #575757;
+        height: 1133px;
+        border: 1px solid #9a9a9a;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -221,7 +221,7 @@ export const MaiN = styled.div`
           &:hover {
             border: 1px solid #0033c6;
             box-shadow: 5px 6px 10px 0px #838383;;
-            
+            scale: 1.03;
           }
           img {
             width: 180px;

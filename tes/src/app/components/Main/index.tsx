@@ -68,6 +68,8 @@ return (
               <a href="/">Pipoqueras<span>(2)</span></a>
               <hr />
               <a href="/" className="clas">Churrasqueiras Elétricas</a>
+              <a href="/">Churrasqueiras<span>(5)</span></a>
+              <a href="/">Acessórios<span>(2)</span></a>
             </div>
           </div>
         </div>
