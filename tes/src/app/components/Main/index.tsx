@@ -86,9 +86,9 @@ return (
               <h3>{item.nome}</h3>
               <div className="parcela">
                 <span>
-                  {item.parc?.cj}
+                  {item.parc?.cj} <strong>de</strong>
                   <br/>
-                  {item.parc?.sj} 
+                  {item.parc?.sj} <strong>sem juros</strong>
                 </span>
               </div>
               <h2>{item.preco}</h2>

@@ -235,6 +235,16 @@ export const MaiN = styled.div`
             line-height: 150%;
             margin-bottom: 12px;
           }
+          span {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            letter-spacing: 0.02em;
+
+            strong {
+              font-weight: 800;
+            }
+          }
           h2 {
             font-size: 20px;
             font-weight: 800;
